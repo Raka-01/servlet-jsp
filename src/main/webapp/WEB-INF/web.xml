@@ -16,5 +16,14 @@
     <servlet-name>ServletDemo2</servlet-name>
     <url-pattern>/servletDemo2</url-pattern>
   </servlet-mapping>
-  
+  <servlet>
+    <description></description>
+    <display-name>ServletDemo3</display-name>
+    <servlet-name>ServletDemo3</servlet-name>
+    <servlet-class>com.raka.servlet.ServletDemo3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletDemo3</servlet-name>
+    <url-pattern>/servletDemo3</url-pattern>
+  </servlet-mapping>
 </web-app>
